@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+:root
+{
+	--main-font: "Pacifico", cursive;
+}
+
+header
+{
+	height: 140vh;
+	width: 100%;
+	background-image: url("img/loginv2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	user-select: none;
+}
+
+form
+{
+	border: dotted 2px #7B7B7B;
+	text-align: center;
+	transition: 0.5s;
+}
+
+#errors
+{
+	border: dotted 2px #7B7B7B;
+	text-align: center;
+	transition: 0.5s;
+}
+
+.error
+{
+	font-size: 1rem;
+	color: red; 
+	font-weight: bolder
+}
+
+form h1
+{
+	font-size: 3rem;
+	font-family: "Pacifico", cursive;
+	color: #6d082b;
+	margin: 20px;
+}
+
+form:hover
+{
+	box-shadow: 0px 11px 54px 0px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 0px 11px 54px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 11px 54px 0px rgba(0,0,0,0.75);
+}
+
+form hr
+{
+	width: 50%;
+	margin: auto;
+	padding: 5px;
+	background: #6B6B6B;
+	border: none;
+}
+
+form h3
+{
+	margin: 20px;
+	font-size: 2rem;
+	color: #6d082b;
+}
+
+a
+{
+	text-decoration: none;
+	color: #6d082b;
+}
+
+a:hover
+{
+	font-weight: bolder;
+}
+
+form input
+{
+	width: 90%;
+	padding: 1rem;
+	margin: 20px 0px;
+	border: none;
+	border-bottom: 1px solid #6d082b;
+	font-size: 1.3rem;
+	background: transparent;
+	outline: none;
+}
+
+form button
+{
+	padding: 0.5rem 2rem;
+	font-size: 1.2rem;
+	background: #7B7B7B;
+	color: #fff;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: 0.5s;
+	outline: none;
+}
+
+form button:hover
+{
+	transform: scale(1.2);
+}
